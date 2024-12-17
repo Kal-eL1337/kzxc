@@ -57,14 +57,14 @@ sub syn_flood_attack
   # TODO
 }
 
-my $channel = '#olympian';
-my $nick = 'el1337x';
+my $channel = '#ggwp';
+my $nick = 'el1337xxx';
 my $user = 'Hey there! I\'m a Bot.';
 
 # Creates a new client. Timeout is defined in seconds.
 my $con = IO::Socket::INET->new(
-  PeerAddr  => 'irc.libera.chat',
-  PeerPort  => '6667',
+  PeerAddr  => 'irc.snoonet.org',
+  PeerPort  => '6697',
   Proto     => 'tcp',
   Timeout   => '30'
 ) or die "Error! $!\n";
